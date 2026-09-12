@@ -27,3 +27,7 @@ __pycache__/
 .env
 .DS_Store
 Thumbs.db
+
+
+# git pull --rebase --autostash origin main
+# git add -A; git commit -m "Update project"; git push origin main
