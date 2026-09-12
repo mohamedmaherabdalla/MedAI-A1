@@ -1,0 +1,29 @@
+# Local Python environments
+.venv/
+venv/
+
+# Medical data — never upload
+data/
+*.dcm
+*.dicom
+*.zip
+assignment1_labels.csv
+rsna_to_nih_mapping.csv
+
+# Trained models and large outputs
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
+
+# Python/Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets and operating-system files
+.env
+.DS_Store
+Thumbs.db
